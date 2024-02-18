@@ -130,7 +130,10 @@ footer a:hover {
 
 .aside {
     /*background: #1c1e29;*/
-    background: #252631;
+    background: 
+    repeating-linear-gradient(0deg, transparent, transparent 50px, rgba(255, 133, 244, 0.8) 50px, rgba(66, 133, 244, 0.8) 51px),
+    repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(66, 133, 244, 0.8) 50px, rgba(66, 133, 244, 0.8) 51px),
+    #5813ea;
     padding: 16px;
     color: #fff;
     display: flex;
